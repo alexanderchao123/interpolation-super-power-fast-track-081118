@@ -6,10 +6,10 @@ def display_rainbow(colors)
   # colored = []
   # index = 0
   # while index < colors.length
-      # Solution 2
+      # # Solution 2:
       # colored << "#{colors[index][0].capitalize}: #{colors[index]}"
 
-      # Solution 3
+      # # Solution 3:
       # color = colors[index]
       # first_letter = color[0].capitalize
       # color_format = "#{first_letter}: #{color}"
