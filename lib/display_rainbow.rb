@@ -5,10 +5,11 @@ def display_rainbow(colors)
   colored = []
   index = 0
   while index < colors.length
-      color = colors[index]
-      first_letter = color[0].capitalize
-      color_format = "#{first_letter}: #{color}"
-      colored << color_format
+      # color = colors[index]
+      # first_letter = color[0].capitalize
+      # color_format = "#{first_letter}: #{color}"
+      # colored << color_format
+      colored << "#{colors[index][0]}: #{colors[index]}"
       index += 1
   end
   puts colored.join(', ')
