@@ -7,8 +7,8 @@ def display_rainbow(colors)
 
   while index < colors.length
       color = colors[index]
-      puts color
-      # first_letter = 
+      puts color[0]
+      # first_letter =
       index += 1
   end
 end
