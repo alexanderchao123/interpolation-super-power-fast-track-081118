@@ -7,7 +7,7 @@ def display_rainbow(colors)
 
   while index < colors.length
       color = colors[index]
-      puts color[0]
+      puts color[0].capatilize
       # first_letter =
       index += 1
   end
