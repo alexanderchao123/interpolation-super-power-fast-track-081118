@@ -7,7 +7,7 @@ def display_rainbow(colors)
   index = 0
   while index < colors.length
       # Solution 2
-      colored << "#{colors[index][0].capitalize}: #{colors[index]}"
+      # colored << "#{colors[index][0].capitalize}: #{colors[index]}"
 
       # Solution 3
       # color = colors[index]
