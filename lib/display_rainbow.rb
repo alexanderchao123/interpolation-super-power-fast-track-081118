@@ -9,7 +9,7 @@ def display_rainbow(colors)
       # first_letter = color[0].capitalize
       # color_format = "#{first_letter}: #{color}"
       # colored << color_format
-      colored << "#{colors[index][0]}: #{colors[index]}"
+      colored << "#{colors[index][0]}.capitalize: #{colors[index]}"
       index += 1
   end
   puts colored.join(', ')
