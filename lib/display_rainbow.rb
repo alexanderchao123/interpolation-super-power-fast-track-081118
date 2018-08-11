@@ -12,7 +12,7 @@ def display_rainbow(colors)
       colored << color_format
       index += 1
   end
-  return color_format.join()
+  return colored.join(',')
 end
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
